@@ -1,0 +1,135 @@
+.wrapping .icon {
+  position: absolute;
+  /* position: absolute; */
+  right: 250px;
+  /* top: 50%; */
+  transform: translateY(-50%);
+  font-size: 25px;
+  padding-left: 4px;
+  padding-top: 20px;
+  width: max-content;
+  top: 35%;
+  height: max-content;
+}
+
+.icon1 {
+  /* position: absolute; */
+  right: 110px;
+  top: 100%;
+  transform: translateY(-20%);
+  font-size: 80px;
+  padding-left: 40px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@400;600;700&display=swap");
+
+.parents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vb;
+  background: #fff;
+}
+
+.wrapping {
+  width: 98vw;
+  background: #693b37;
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  position: absolute;
+  top: 4px;
+  display: flex;
+  /* background-color: DodgerBlue; */
+  justify-content: space-between;
+  /* height: 50px; */
+  /* right: 50px; */
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapping h1 {
+  font-size: 40px;
+  text-align: center;
+  height: 44px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.wrapping .input-boxs {
+  /* position: top; */
+  width: 50%;
+  height: 0px;
+  background: transparent;
+  margin: 30px 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  vertical-align: middle;
+  padding-top: 0px;
+}
+
+.input-boxs input {
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid #ffffff33;
+  outline: none;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-boxs input::placeholder  {
+  color: #fff;
+}
+
+.container {
+  /* max-width: 1300px; */
+  width: 100%;
+  margin: auto;
+  padding-top: 150px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  flex: calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  /* width: 100%; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+  /* background: rgba(255, 255, 255, 0.934);
+  border-radius: 16px;
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); */
+  /*  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+  border: 2px solid rgba(255, 255, 255, 0.3); */
+}
+
+.card_div {
+  display: flex;
+}
+.card_desc {
+  margin-top: 7px;
+  min-height: 125px;
+}
+
+.main-card {
+  background-color: beige;
+  /* padding: 8px; */
+  border: 1px solid blue;
+}
